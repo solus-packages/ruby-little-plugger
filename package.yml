@@ -1,16 +1,17 @@
 name       : ruby-little-plugger
 version    : 1.1.4
-release    : 3
+release    : 4
 source     :
     - https://rubygems.org/downloads/little-plugger-1.1.4.gem : d5f347c00d9d648040ef7c17d6eb09d3d0719adf19ca30d1a3b6fb26d0a631bb
 license    : MIT
 component  : programming.ruby
 summary    : RubyGem - little-plugger
 description: |
-    LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.
+    LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}

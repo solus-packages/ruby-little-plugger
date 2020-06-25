@@ -2,43 +2,40 @@
     <Source>
         <Name>ruby-little-plugger</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
         <Summary xml:lang="en">RubyGem - little-plugger</Summary>
-        <Description xml:lang="en">LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.
+        <Description xml:lang="en">LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>ruby-little-plugger</Name>
         <Summary xml:lang="en">RubyGem - little-plugger</Summary>
-        <Description xml:lang="en">LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.
+        <Description xml:lang="en">LittlePlugger is a module that provides Gem based plugin management. By extending your own class or module with LittlePlugger you can easily manage the loading and initializing of plugins provided by other gems.
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/little-plugger-1.1.4/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/little-plugger-1.1.4/History.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/little-plugger-1.1.4/README.rdoc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/little-plugger-1.1.4/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/little-plugger-1.1.4/lib/little-plugger.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/little-plugger-1.1.4/spec/little-plugger_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/little-plugger-1.1.4/spec/spec_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/little-plugger-1.1.4.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/little-plugger-1.1.4/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/little-plugger-1.1.4/History.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/little-plugger-1.1.4/README.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/little-plugger-1.1.4/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/little-plugger-1.1.4/lib/little-plugger.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/little-plugger-1.1.4/spec/little-plugger_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/little-plugger-1.1.4/spec/spec_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/little-plugger-1.1.4.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
+        <Update release="4">
+            <Date>2020-06-26</Date>
             <Version>1.1.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
